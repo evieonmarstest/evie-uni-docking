@@ -1,21 +1,64 @@
-# Evie UNI Docking
+# Evie on Mars — UNI Docking
 
-Browser mini-game for Evie on Mars.
+Professional browser game structure for GitHub Pages.
 
-## Play locally
+## Upload to GitHub
 
-Open `index.html` in a browser.
+Upload the full folder contents to the repository root:
 
-## GitHub Actions visual test
+```text
+index.html
+css/style.css
+js/game.js
+assets/images/*.png
+docs/*
+```
 
-This repository includes Playwright tests that:
-- open Chromium
-- load levels 1–9
-- take screenshots before and after launch
-- upload screenshots and HTML report as GitHub Actions artifacts
+Do not use the old huge single-file HTML.
 
-## GitHub Pages
+## File structure
 
-After GitHub Pages is enabled, the game URL will be:
+```text
+evie-uni-docking/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── game.js
+├── assets/
+│   └── images/
+│       ├── evie_head.png
+│       ├── uni_head.png
+│       ├── fox_coin.png
+│       ├── earth_real.png
+│       ├── moon_real.png
+│       └── debris_1.png ... debris_8.png
+└── docs/
+    ├── UPLOAD_GUIDE.txt
+    └── V30_CHANGELOG.txt
+```
 
-https://evieonmarstest.github.io/evie-uni-docking/
+## Built-in self-test
+
+The game runs a self-test on page load and shows a SELF TEST panel in the top-right.
+
+It checks:
+
+- 9 levels installed
+- Earth / Moon / launcher / dock exist
+- debris exists
+- no debris hidden inside the Moon zone
+- launch simulation moves
+- Level 4+ orbit dock exists
+- Level 7 moving debris exists
+- Level 8 reactor debris exists
+- Level 9 stronger gravity exists
+- internal launch/update/reset works
+
+## Controls
+
+- Drag backward from Earth launcher to launch
+- `R` reset
+- `N` next level
+- `P` previous level
+- `1–9` jump to level
