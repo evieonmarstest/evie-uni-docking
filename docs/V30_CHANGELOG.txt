@@ -1,0 +1,16 @@
+V30 Professional Structure Changelog
+
+Changed:
+- Split the old monolithic HTML into professional project structure.
+- index.html is now a clean shell only.
+- css/style.css contains layout, canvas, hint, and self-test styles.
+- js/game.js contains all game logic.
+- assets/images contains all PNG art assets.
+- Built-in self-test remains.
+- Removed base64 embedded images from HTML.
+- GitHub can now preview/edit index.html normally.
+- Browser loads images as normal files instead of one huge HTML blob.
+
+Reason:
+- V28 single-file HTML was too large and not professional.
+- V30 is cleaner, easier to maintain, easier to debug, and better for GitHub Pages.

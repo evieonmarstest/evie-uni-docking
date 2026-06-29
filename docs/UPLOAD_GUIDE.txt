@@ -1,0 +1,22 @@
+V30 Upload Guide — Professional Structure
+
+This version is NOT a big index.html mess.
+
+Upload these folders/files to the GitHub repo root:
+
+1. index.html
+2. css/style.css
+3. js/game.js
+4. assets/images/ folder with all PNG files
+5. docs/ folder optional but recommended
+6. README.md optional but recommended
+
+Important:
+- Do not upload the old V28 13.4 MB index.html.
+- Do not edit GitHub Actions.
+- Do not edit the tests folder.
+- GitHub Pages should serve from branch main / root.
+- The live page remains:
+  https://evieonmarstest.github.io/evie-uni-docking/
+
+After GitHub Pages updates, the game opens normally and shows the SELF TEST panel.

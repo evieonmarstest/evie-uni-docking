@@ -1,0 +1,15 @@
+{
+  "name": "Evie on Mars \u2014 UNI Docking",
+  "version": "V30 Professional Structure",
+  "entry": "index.html",
+  "structure": {
+    "html": "index.html",
+    "css": "css/style.css",
+    "js": "js/game.js",
+    "assets": "assets/images"
+  },
+  "github_pages": {
+    "branch": "main",
+    "folder": "/root"
+  }
+}
