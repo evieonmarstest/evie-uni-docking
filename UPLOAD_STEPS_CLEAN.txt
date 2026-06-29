@@ -1,0 +1,13 @@
+Clean upload package:
+1. Unzip this file.
+2. Open the unzipped folder.
+3. Select the CONTENTS inside the folder, not the folder itself.
+4. Drag these files/folders into GitHub upload:
+   - index.html
+   - png files
+   - package.json
+   - playwright.config.js
+   - README.md
+   - tests folder
+   - .github folder
+5. Commit changes.
